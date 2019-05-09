@@ -1,6 +1,6 @@
 {
   "name": "symbolic-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.cjs.js",
   "description": "Make the property links to other target like the symbolic link.",
   "author": "imcuttle <moyuyc95@gmail.com>",

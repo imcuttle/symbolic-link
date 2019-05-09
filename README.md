@@ -73,13 +73,15 @@ comb.srcX.name === comb.obj.name
 
 ### symbolicLink
 
+[index.js:86-120](https://github.com/imcuttle/symbolic-link/blob/6f46a6dccc6a06316cce5d13012fb933d53b95bd/index.js#L86-L120 "Source code on GitHub")
+
 #### Parameters
 
-- `srcTarget` {any}
-- `srcPropName` {String|Symbol|Number}
-- `destTarget` {any}
-- `destPropName` {String|Symbol|Number}
-- `descriptor` {object}
+-   `srcTarget`  {any}
+-   `srcPropName`  {String|Symbol|Number}
+-   `destTarget`  {any}
+-   `destPropName`  {String|Symbol|Number}
+-   `descriptor`  {object}
 
 #### Examples
 
@@ -102,10 +104,12 @@ Returns **any** dispose {Function}
 
 ### symbolicTarget
 
+[index.js:142-152](https://github.com/imcuttle/symbolic-link/blob/6f46a6dccc6a06316cce5d13012fb933d53b95bd/index.js#L142-L152 "Source code on GitHub")
+
 #### Parameters
 
-- `target` {any}
-- `config` {{name: [destTarget, destPropName, descriptor]}}
+-   `target`  {any}
+-   `config`  {{name: [destTarget, destPropName, descriptor]}}
 
 #### Examples
 
@@ -129,24 +133,26 @@ Returns **any** dispose {Function}
 
 ### defineSymbolic
 
+[index.js:160-163](https://github.com/imcuttle/symbolic-link/blob/6f46a6dccc6a06316cce5d13012fb933d53b95bd/index.js#L160-L163 "Source code on GitHub")
+
 #### Parameters
 
-- `target` {any}
-- `config` {{name: [destTarget, destPropName, descriptor]}}
+-   `target`  {any}
+-   `config`  {{name: [destTarget, destPropName, descriptor]}}
 
 Returns **any** target {any}
 
 ## Contributing
 
-- Fork it!
-- Create your new branch:  
-  `git checkout -b feature-new` or `git checkout -b fix-which-bug`
-- Start your magic work now
-- Make sure npm test passes
-- Commit your changes:  
-  `git commit -am 'feat: some description (close #123)'` or `git commit -am 'fix: some description (fix #123)'`
-- Push to the branch: `git push`
-- Submit a pull request :)
+-   Fork it!
+-   Create your new branch:  
+    `git checkout -b feature-new` or `git checkout -b fix-which-bug`
+-   Start your magic work now
+-   Make sure npm test passes
+-   Commit your changes:  
+    `git commit -am 'feat: some description (close #123)'` or `git commit -am 'fix: some description (fix #123)'`
+-   Push to the branch: `git push`
+-   Submit a pull request :)
 
 ## Authors
 
